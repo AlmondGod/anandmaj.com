@@ -159,3 +159,7 @@ nav a:last-child {
   background-size: 850px;
   background-blend-mode:lighten ;
 }
+
+.slightly-bigger-a{
+  font-size:13px;
+}
