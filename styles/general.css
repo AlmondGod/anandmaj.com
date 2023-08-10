@@ -1,0 +1,161 @@
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+body {
+  /* This style below will be inherited */
+  font-family: 'Julius Sans One', sans-serif;
+  margin: 0;
+  position: relative;
+  /* padding-top: 30px; */
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 40px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Apply 20px margin between navbar items */
+a {
+  font-weight: light; /* Make the text bold */
+  text-decoration: none; /* Remove the underline */
+  color:gray; /* Set the text color to black */ 
+  margin-right: 50px;
+  transition: color 0.2s;
+  text-decoration: none;
+  
+}
+
+a:hover {
+  font-weight:bold;
+  color:black; /* Add underline on hover */
+}
+
+nav a{
+  font-size: 20px;
+  color:black;
+  /* color: rgba(3, 1, 1, 0); */
+}
+
+/* Remove margin from the last item to prevent extra spacing */
+nav a:last-child {
+  margin-right: 0;
+}
+
+.main-title{
+  width:600px;
+}
+
+.main-title h1{
+  font-size: 40px;
+  color: rgb(59, 59, 59);
+  font-weight: lighter;
+  padding-top:208px;
+}
+
+.main-scroll{
+  width: 800px;
+  height:550px;
+  margin: 0; /* Remove default margin */
+  padding: 0;
+  border-bottom:0;
+  color: rgb(59, 59, 59);
+  font-size:12px;
+  font-weight:lighter;
+  background-image:url("bottom gate white.JPG");
+  background-repeat: no-repeat;
+  background-size: 800px;
+  align-items:center;
+  background-position:center;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-scroll h3{
+  width:610px;
+  /* padding-top:10px; */
+}
+
+.helloclass{
+  background-color: rgb(248, 248, 248);
+  border-right: 100px solid rgb(248, 248, 248);
+  border-left: 100px solid rgb(248, 248, 248);
+  padding: 20px;
+}
+
+.vertical-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-cat {
+  font-size: 64px;
+  text-align: center;
+}
+
+.sub-text{
+  display: flex;
+  flex-direction: column;
+  /* align-items:center; */
+}
+
+.project-title{
+  padding: 10px;
+  width:610px;
+}
+
+.image-text-container {
+  display: flex; /* Use flexbox layout */
+  align-items: center; /* Center items vertically */
+  /* padding-top: 100px; */
+  padding-left:0px;
+  padding-right: 0px;
+  padding-bottom: 60px;
+  height: 40px;
+}
+
+.image-text-container img {
+  max-width: 100px; /* Adjust the width of the image as needed */
+  height: auto; /* Maintain aspect ratio */
+  vertical-align: middle;
+  width: 100%; /* Adjust the width of the cropped image */
+  /* clip-path: polygon(12% 15%, 87% 15%, 87% 91%, 12% 91%);  */
+  opacity: 0.86;
+  filter: brightness(97%);
+  padding: 0px;
+}
+
+.image-text-container p {
+  margin-left: 10px; 
+  vertical-align: middle;
+  width: 100px;
+}
+
+.image-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 4;
+  padding-top: 50px;
+}
+
+.in-text-link:hover{
+    text-decoration: underline;
+}
+
+.title-bar{
+  width: 850px;
+  border-top:100px;
+  height:281px;
+  align-items:center;
+  display:flex;
+  justify-content: center;
+  background-image:url("top gate white.JPG");
+  background-repeat: no-repeat;
+  background-size: 850px;
+  background-blend-mode:lighten ;
+}

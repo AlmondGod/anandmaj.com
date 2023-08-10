@@ -1,0 +1,34 @@
+.rotator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-arrow{
+    border: none;
+    padding: 10px;
+    height: 10px;
+    width: 10px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/TriangleArrow-Left.svg/887px-TriangleArrow-Left.svg.png");
+}
+
+.right-arrow{
+    border:none;
+    height: 10px;
+    width: 10px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TriangleArrow-Right.svg/1200px-TriangleArrow-Right.svg.png");
+}
+
+.centerpiece{
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Align items vertically in the center */
+    align-items: center;
+    color: grey;
+}
+
+.centerpiece-img{
+    width: 100px;
+    padding: 10px;
+}
+

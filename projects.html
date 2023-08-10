@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Projects | Anand Majmudar</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@400;700&display=swap">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/video.css">
+        <link rel="stylesheet" href="styles/sidebar.css">
+        <link rel="stylesheet" href="styles/grid.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="top bar">
+              <nav>
+                <a href="./">Home</a>
+                <a href="./writing.html">Writing</a>
+                <a href="./projects.html">Projects</a>
+                <a href="./art.html">Art</a>
+              </nav>
+            </div>
+            <script src="script/headerscript.js"></script>
+        </header>
+
+        <div class ="title-bar">
+            <div class = "main-title">
+              <h1>Projects </h1>
+            </div>
+        </div>
+        
+        <main class = "main-scroll">
+           <div class="grid-container">
+                <div onclick="redirectIntelligib()" class="grid-item">
+                    <h2>Speech Intelligibility Toolkit</h2>
+                    <p class = "hidden-text">Suite of tools used to process human audio recordings into embeddings
+                        and analyze those embeddings to decide the best inputs to 
+                        speech-intelligibility discerning neural networks
+                        </p>
+                </div>
+                <script>function redirectIntelligib(){window.location.href = "https://github.com/AlmondGod/humanspeech-toolkit";}</script>
+                <div onclick="redirectWordle()" class="grid-item">
+                    <h2>Wordle Generator</h2>
+                    <p class = "hidden-text">Wordle engine for user 
+                        can create their own version of wordle with a certain selection of words. 
+                        Also created an example wordle called anime wordle. 
+                        </p>
+                </div>
+                <script>function redirectWordle(){window.location.href = "https://github.com/AlmondGod/humanspeech-toolkit";}</script>
+                <div class="grid-item">
+                    <h2>Art generation with text inclusion NN(In Development)</h2>
+                    <p class = "hidden-text">Version of stable diffusion trained on manga panels to generate manga
+                        images with visual and dialogue descriptions
+                        </p>
+                </div>
+                <div class="grid-item">
+                    <h2>Speech Intelligibility Neural Network (In Development)</h2>
+                    <p class = "hidden-text">Suite of tools used to process human audio recordings into embeddings
+                        and analyze those embeddings to decide the best inputs to 
+                        speech-intelligibility discerning neural networks
+                        </p>
+                </div>
+                <script src="script/grid.js"></script>
+                
+            </div>
+        </main>
+
+        <div>
+            <a class = "footertag" src = "">Github</a>
+            <a class = "footertag" src = "">LinkedIn</a>
+          </div>
+          
+
+    </body>
+</html>
