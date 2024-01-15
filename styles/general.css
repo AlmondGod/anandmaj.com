@@ -74,6 +74,12 @@ nav a:last-child {
   flex-direction: column;
 }
 
+.spacer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 13px;
+}
+
 .main-scroll h3{
   width:610px;
   /* padding-top:10px; */
