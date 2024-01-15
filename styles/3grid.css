@@ -1,29 +1,28 @@
 .threegrid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 30px; /* Adjust the gap between grid items */
     width: 400px; /* Set the width of the grid container */
     padding-top:12px;
-    height: 300px;
+    height: 600px;
     margin: 0 auto; /* Center the grid horizontally */
     padding-right: 100px;
-  }
+    padding-bottom: 100px;
+}
 
 .threegrid-item {
     background-color: #f5f5f5;
     background-repeat: no-repeat;
     padding: 10px;
-    border:10px solid rgb(230, 228, 228);
+    border: 10px solid rgb(230, 228, 228);
     text-align: center;
     transition: background-color 0.7s;
-    height:100px;
-    position: relative;
+    width: 200px;
+    height: 200px;
 }
-
 
 .threegrid-item:hover{
     background-color: #b3b2b2;
-    height: 200px;
 }
 
 .threegrid-item:hover .hidden-text{
@@ -43,10 +42,10 @@ h2{
 }
 
 .threegrid-item:hover img{
-    width: 200px
+    display: none;
 }
 
 img{
     display:block;
-    width:100px;
+    width:200px;
 }
