@@ -9,7 +9,7 @@
   }
 
 .grid-item {
-    background-color: #f5f5f5;
+    background-color: #f7f7f7;
     /* background-image: url("Pond.jpg"); */
     background-repeat: no-repeat;
     padding: 10px;
@@ -20,7 +20,7 @@
 }
 
 .grid-item:hover{
-    background-color: #b3b2b2;
+    background-color: #dadada;
 }
 
 .grid-item:hover .hidden-text{
@@ -47,4 +47,36 @@ img{
     display:block;
     height:80px;
     width:240px;
+}
+
+.wordle-background {
+    background-image: url('Wordle.png');
+}
+
+.wordle-background:hover{
+    background-image: None;
+}
+
+.grid-item1 {
+    background-color: #f7f7f7;
+    /* background-image: url("Wordle.png"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+    border:10px solid rgb(230, 228, 228);
+    text-align: center;
+    transition: background-color 0.7s;
+    height:80px;
+}
+
+.grid-item1:hover .hidden-text{
+    display:block;
+}
+
+.grid-item1:hover h2{
+    display:none;
+}
+
+.grid-item1:hover{
+    background-color: #dadada;
 }
