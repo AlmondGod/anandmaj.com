@@ -2,10 +2,11 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px; /* Adjust the gap between grid items */
-    width: 600px; /* Set the width of the grid container */
+    width: 400px; /* Set the width of the grid container */
     padding-top:12px;
     height: 300px;
     margin: 0 auto; /* Center the grid horizontally */
+    padding-right: 100px;
   }
 
 .threegrid-item {
@@ -15,11 +16,14 @@
     border:10px solid rgb(230, 228, 228);
     text-align: center;
     transition: background-color 0.7s;
-    height:80px;
+    height:100px;
+    position: relative;
 }
+
 
 .threegrid-item:hover{
     background-color: #b3b2b2;
+    height: 200px;
 }
 
 .threegrid-item:hover .hidden-text{
@@ -39,7 +43,7 @@ h2{
 }
 
 .threegrid-item:hover img{
-    display:none;
+    width: 200px
 }
 
 img{
