@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@400;700&display=swap">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
         <link rel="stylesheet" href="styles/general.css">
         <link rel="stylesheet" href="styles/header.css">
@@ -36,38 +37,61 @@
         
         <main class = "main-scroll">
            <div class="grid-container">
-                <div onclick="redirectIntelligib()" class="grid-item">
+                <div id="knights-of-papers" onclick="redirectKnightsofPapers()" class="grid-item">
+                    <h2>Training simulated humanoid robots with reinforcement learning</h2>
+                    <p class = "hidden-text">
+                        Trained simulated humanoid robots with 9-actuators and RGB vision using DDPG, Decision Transformer, I2A with PPO, and SAC. See my Youtube for more!                        
+                        </p>
+                </div>
+                <script>function redirectKnightsofPapers(){window.location.href = "https://github.com/AlmondGod/Knights-of-Papers?tab=readme-ov-file";}</script>
+                <div id="kde" onclick="redirectKDE()" class="grid-item">
+                    <h2>Shell Adaptive Kernel Density Estimation</h2>
+                    <p class = "hidden-text">Novel Algorithm for Kernel Density Estimation that takes advantage of 
+                        low-variance query-dataset pairs to significantly accelerate the speed of adaptive random sampling. 
+                        Created under the UPenn PURM grant
+                        </p>
+                </div>
+                <script>function redirectKDE(){window.location.href = "https://github.com/AlmondGod/kde-eval";}</script>
+                <div id="intelligib" onclick="redirectIntelligib()" class="grid-item">
                     <h2>Speech Intelligibility Toolkit</h2>
-                    <p class = "hidden-text">Suite of tools used to process human audio recordings into embeddings
-                        and analyze those embeddings to decide the best inputs to 
-                        speech-intelligibility discerning neural networks
+                    <p class = "hidden-text">Tools to process human audio recordings into embeddings
+                        and analyze those embeddings towards optimized inputs of 
+                        speech-discerning networks. Created for the Upenn Comp linguistics lab.
                         </p>
                 </div>
                 <script>function redirectIntelligib(){window.location.href = "https://github.com/AlmondGod/humanspeech-toolkit";}</script>
-                <div onclick="redirectWordle()" class="grid-item1">
-                    <h2>Wordle Generator</h2>
-                    <p class = "hidden-text">Wordle engine for user 
-                        can create their own version of wordle with a certain selection of words. 
-                        Also created an example wordle called anime wordle. 
-                        </p>
-                </div>
-                <script>function redirectWordle(){window.location.href = "https://github.com/AlmondGod/wordle-engine";}</script>
-                <div  onclick="redirectGANEngine()" class="grid-item">
-                    <h2>GAN Engine From Scratch</h2>
+                <div id="gan-engine" onclick="redirectGANEngine()" class="grid-item">
+                    <h2>GAN Engine using only matrix multiplication</h2>
                     <p class = "hidden-text">GAN Engine built with no Pytorch/Tensorflow, only using NumPy,
                         with customizable Activation functions, Cost functions, and Optimizers!                        </p>
                 </div>
                 <script>function redirectGANEngine(){window.location.href = "https://github.com/AlmondGod/GAN-Engine";}</script>
-                <div onclick="redirectSolidityExp()" class="grid-item">
-                    <h2>Solidity Experimentation</h2>
-                    <p class = "hidden-text">Solidity Token Sale SC, A Decentralized Voting System SC,
-                        Token Exchange SC, and Multi-sig Wallet SC 
+                <div id = "move-polymarket" onclick="redirectMovePolymarket()" class="grid-item">
+                    <h2>Secure Move Polymarket on sui</h2>
+                    <p class = "hidden-text">Polymarket-equivalent optimized for security and built on Sui chain using the Rust-based Move language for Sui Foundation Grant.
                         </p>
                 </div>
-                <script>function redirectSolidityExp(){window.location.href = "https://github.com/AlmondGod/Solidity-experimentation";}</script>
+                <script>function redirectMovePolymarket(){window.location.href = "https://github.com/AlmondGod/MoveSportsbetter/tree/main/build/locks";}</script>
                 <script src="script/grid.js"></script>
-                
+                <div id = "wordle" onclick="redirectWordle()" class="grid-item1">
+                    <h2>Wordle Generator</h2>
+                    <p class = "hidden-text">Wordle engine for user 
+                        can create their own version of wordle with a certain selection of words. 
+                        Also created an example wordle called anime wordle. Created for Upenn CIS 1200 final project.
+                        </p>
+                </div>
+                <script>function redirectWordle(){window.location.href = "https://github.com/AlmondGod/wordle-engine";}</script>
             </div>
+            
         </main>
+        </div><div  class="space">
+        <img src = "styles/header gate white.JPG">
+        <div  class="social-icons">
+            <a href="https://github.com/AlmondGod" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://x.com/Almondgodd" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/anand-majmudar-962406221/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.youtube.com/@Almondgod" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        </div> 
     </body>
+    
 </html>

@@ -4,11 +4,9 @@ p {
 }
 
 body {
-  /* This style below will be inherited */
   font-family: 'Julius Sans One', sans-serif;
   margin: 0;
   position: relative;
-  /* padding-top: 30px; */
   padding-left: 80px;
   padding-right: 80px;
   padding-bottom: 40px;
@@ -18,30 +16,27 @@ body {
   align-items: center;
 }
 
-/* Apply 20px margin between navbar items */
+
 a {
-  font-weight: light; /* Make the text bold */
-  text-decoration: none; /* Remove the underline */
-  color:gray; /* Set the text color to black */ 
+  font-weight: light; 
+  text-decoration: none; 
+  color:gray;  
   margin-right: 50px;
   transition: color 0.2s;
   text-decoration: none;
-  
 }
 
 a:hover {
   font-weight:bold;
-  color:black; /* Add underline on hover */
+  color:black; 
 }
 
 nav a{
   font-size: 20px;
   color:black;
   margin-right: 100px;
-  /* color: rgba(3, 1, 1, 0); */
 }
 
-/* Remove margin from the last item to prevent extra spacing */
 nav a:last-child {
   margin-right: 0;
 }
@@ -58,9 +53,8 @@ nav a:last-child {
 }
 
 .main-scroll{
-  width: 800px;
   height:550px;
-  margin: 0; /* Remove default margin */
+  margin: 0; 
   padding: 0;
   border-bottom:0;
   color: rgb(59, 59, 59);
@@ -72,17 +66,22 @@ nav a:last-child {
   background-position:center;
   display: flex;
   flex-direction: column;
+  width: 100%;
+  max-width: 1100px; 
+  margin: 0 auto;
+  padding: 0 20px; 
+  box-sizing: border-box;
 }
 
 .spacer {
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 13px;
+  white-space: pre-wrap;
 }
 
 .main-scroll h3{
   width:610px;
-  /* padding-top:10px; */
 }
 
 .helloclass{
@@ -106,7 +105,7 @@ nav a:last-child {
 .sub-text{
   display: flex;
   flex-direction: column;
-  /* align-items:center; */
+  
 }
 
 .project-title{
@@ -115,9 +114,8 @@ nav a:last-child {
 }
 
 .image-text-container {
-  display: flex; /* Use flexbox layout */
-  align-items: center; /* Center items vertically */
-  /* padding-top: 100px; */
+  display: flex; 
+  align-items: center; 
   padding-left:0px;
   padding-right: 0px;
   padding-bottom: 60px;
@@ -125,11 +123,11 @@ nav a:last-child {
 }
 
 .image-text-container img {
-  max-width: 100px; /* Adjust the width of the image as needed */
-  height: auto; /* Maintain aspect ratio */
+  max-width: 100px; 
+  height: auto; 
   vertical-align: middle;
-  width: 100%; /* Adjust the width of the cropped image */
-  /* clip-path: polygon(12% 15%, 87% 15%, 87% 91%, 12% 91%);  */
+  width: 100%; 
+
   opacity: 0.86;
   filter: brightness(97%);
   padding: 0px;
@@ -168,4 +166,43 @@ nav a:last-child {
 
 .slightly-bigger-a{
   font-size:13px;
+}
+
+.footer-image {
+  width: 140%;
+  max-width: 1500px; /* Adjust this value as needed */
+  margin-bottom: 20px;
+}
+
+.footer-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px;
+}
+
+.social-icons a {
+  color: #b9b8b8;
+  font-size: 30px;
+  margin: 0 60px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #8e9193;  
+}
+
+.space {
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+.superspacer {
+  padding-top: 200px;
+  padding-bottom: 100px;
 }
