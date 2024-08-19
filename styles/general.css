@@ -184,6 +184,8 @@ nav a:last-child {
   display: flex;
   justify-content: center;
   padding: 20px 0px;
+  padding-top: 0px;
+  padding-bottom: 40px;
 }
 
 .social-icons a {
