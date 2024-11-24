@@ -76,6 +76,7 @@
     display: flex;
 }
 
+#nintendo-aloha { background-image: url('Project Images/nintendo\ teleoperation.jpeg'); }
 #knights-of-papers { background-image: url('Project Images/Knights of Papers Duel.png'); }
 #kde { background-image: url('Project Images/point clouds.png'); }
 #intelligib { background-image: url('Project Images/3d signal processing.png'); }
